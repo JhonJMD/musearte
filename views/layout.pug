@@ -1,0 +1,28 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title= titulo
+        link(rel="stylesheet" href="/css/style.css")
+    body
+        header.header
+            .container
+                h1.logo MUSEARTE
+                h2.subtitle Museo Virtual de Arte Moderno
+                nav.nav
+                    ul.nav-list
+                        li.nav-item
+                            a.nav-link(href="/") Inicio
+                        li.nav-item
+                            a.nav-link(href="/galeria") Galería
+                        li.nav-item
+                            a.nav-link(href="/acerca") Acerca
+
+        main.main
+            .container
+                block content
+
+        footer.footer
+            .container
+                p © 2025 MUSEARTE - Museo Virtual de Arte Moderno

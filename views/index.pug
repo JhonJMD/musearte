@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    section.hero
+        h2.section-title Bienvenido a MUSEARTE
+        p.section-text Explora nuestra colección de arte moderno con obras únicas y vanguardistas.
+        a.btn(href="/galeria") Ver todas las obras
+
+    section.featured
+        h2.section-title Obras Destacadas
+        .obras-grid
+            each obra in obras
+                .obra-card
+                    a(href=`/obra/${obra.id}`)
+                        img.obra-img(src=obra.imagen, alt=obra.titulo)
+                        .obra-info
+                            h3.obra-titulo= obra.titulo
+                            p.obra-autor por #{obra.autor}

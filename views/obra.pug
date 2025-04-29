@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    section.obra-detalle
+        .obra-header
+            h2.obra-titulo= obra.titulo
+            p.obra-metadata por #{obra.autor}, #{obra.anio}
+
+        .obra-contenido
+            .obra-imagen
+                img.obra-img-grande(src=obra.imagen, alt=obra.titulo)
+
+            .obra-descripcion
+                h3 Sobre la obra
+                p= obra.descripcion
+
+        .obra-nav
+            a.btn(href="/galeria") Volver a la galería
