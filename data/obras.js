@@ -5,7 +5,7 @@ const obras = [
         autor: "Lía Torres",
         anio: 2018,
         descripcion: "Una exploración de formas geométricas que juegan con la percepción espacial. La obra combina tonos de azul y negro en un lienzo minimalista que invita a la reflexión sobre el equilibrio y la armonía.",
-        imagen: "/img/composicion-azul.jpg"
+        imagen: "/img/composicion-azul.jpeg"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const obras = [
         autor: "Miguel Suárez",
         anio: 2020,
         descripcion: "Una explosión de color rojo que representa la pasión y la energía vital. Esta obra abstracta busca transmitir la intensidad de las emociones humanas a través de pinceladas violentas y expresivas.",
-        imagen: "/img/estallido-rojo.jpg"
+        imagen: "/img/estallido-rojo.jpeg"
     },
     {
         id: 3,
