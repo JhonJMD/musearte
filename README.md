@@ -91,7 +91,3 @@ Este proyecto está configurado para ser desplegado en [Vercel](https://vercel.c
    git push origin mi-nueva-funcionalidad
    ```
 5. Abre un Pull Request en GitHub.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia ISC.
